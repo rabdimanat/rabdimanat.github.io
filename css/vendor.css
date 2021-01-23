@@ -1,23 +1,4 @@
-/**
- * =================================================================== 
- *
- *  Kards v1.0 Vendor/Third Party CSS 
- *  url: styleshout.com
- *  03-01-2016
- *  ------------------------------------------------------------------
- *  TOC:
- *  01. Core Owl Carousel CSS File
- *  02. Magnific Popup CSS
- *
- * =================================================================== 
- */
 
-/* 
- *  01. Core Owl Carousel CSS File
- *	 v1.3.3
- */
-
-/* clearfix */
 .owl-carousel .owl-wrapper:after {
 	content: ".";
 	display: block;
@@ -81,10 +62,7 @@
 	-ms-transform: translate3d(0, 0, 0);
 }
 
-/* 
- *  Owl Carousel CSS3 Transitions 
- *  v1.3.2
- */
+
 .owl-origin {
 	-webkit-perspective: 1200px;
 	-webkit-perspective-origin-x: 50%;
@@ -95,7 +73,6 @@
 	perspective: 1200px;
 }
 
-/* fade */
 .owl-fade-out {
 	z-index: 10;
 	-webkit-animation: fadeOut .7s both ease;
@@ -108,7 +85,6 @@
 	animation: fadeIn .7s both ease;
 }
 
-/* backSlide */
 .owl-backSlide-out {
 	-webkit-animation: backSlideOut 1s both ease;
 	-moz-animation: backSlideOut 1s both ease;
@@ -120,7 +96,6 @@
 	animation: backSlideIn 1s both ease;
 }
 
-/* goDown */
 .owl-goDown-out {
 	-webkit-animation: scaleToFade .7s ease both;
 	-moz-animation: scaleToFade .7s ease both;
@@ -132,7 +107,7 @@
 	animation: goDown .6s ease both;
 }
 
-/* scaleUp */
+
 .owl-fadeUp-in {
 	-webkit-animation: scaleUpFrom .5s ease both;
 	-moz-animation: scaleUpFrom .5s ease both;
@@ -144,9 +119,6 @@
 	animation: scaleUpTo .5s ease both;
 }
 
-/* Keyframes */
-
-/*empty*/
 @-webkit-keyframes empty {
 	0% {
 		opacity: 1;
@@ -365,9 +337,6 @@
 }
 
 
-/* 
- *  02. Magnific Popup CSS
- */
 .mfp-bg {
 	top: 0;
 	left: 0;
@@ -639,7 +608,6 @@ img.mfp-img {
 	margin: 0 auto;
 }
 
-/* The shadow behind the image */
 .mfp-figure {
 	line-height: 0;
 }
@@ -689,9 +657,7 @@ img.mfp-img {
 }
 @media screen and (max-width:800px) and (orientation:landscape), screen and (max-height:300px) {
 
-	/**
-	     * Remove all paddings around the image on small screen
-	     */
+	
 	.mfp-img-mobile .mfp-image-holder {
 		padding-left: 0;
 		padding-right: 0;
@@ -776,5 +742,3 @@ img.mfp-img {
 	right: 0;
 	padding-top: 0;
 }
-
-/*# sourceMappingURL=vendor.css.map */
